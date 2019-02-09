@@ -33,20 +33,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The DOM is the document object model. It represents the HTML page as a logical tree and allows you to interact with it programming languages. 
+
 2. What is an event?
+
+An event is an action taking place on the page such as click or resize. They are often used with event listeners to add interactivity to a web page. When the event takes place you can do things like make the CSS or HTML of the page change.
 
 3. What is an event listener?
 
+An event listener watches the page for an event to take place so it can perform the necessary action. Examples of events you can listen for are click,mouseenter, and keypress.
+
 4. Why would we convert a NodeList into an Array?
+
+NodeLists are array-like but since they aren't arrays there are still methods that can't be used on them. Converting to an array means there are more ways you can manipulate the list.
 
 5. What is a component?
 
+It's a reusable element created with a mix of CSS, HTML, and/or JavaScript. 
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
