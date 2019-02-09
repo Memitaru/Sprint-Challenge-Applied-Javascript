@@ -9,18 +9,18 @@ class Carousel {
         this.images[this.currentIndex].style.display = 'block';
         this.leftButton.addEventListener('click', () => this.left());
         this.rightButton.addEventListener('click', () => this.right());
+        setInterval(() => this.right(), 3000);
     }
 
-    left(){
-        this.images.forEach(image => image.style.dispay = 'none');
+    left() {
+        this.images.forEach(image => image.style.display = 'none');
 
-        if (this.currentIndex === 0){
-            this.currentIndex = this.images.length -1;
-        } else {
-            this.currentIndex = this.currentIndex -1;
+        if (this.currentIndex === 0) {
+            this.currentIndex = this.images.length - 1;
+        } else { 
+            this.currentIndex = this.currentIndex - 1;
         }
-        
-        this.images[this.currentIndex].style.display = 'block';
+        this.images[this.currentIndex].style.display = "block";
     }
 
     right(){
