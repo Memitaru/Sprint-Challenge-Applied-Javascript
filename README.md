@@ -33,15 +33,17 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
-The DOM is the document object model. It represents the HTML page as a logical tree and allows you to interact with it programming languages. 
+DOM stands for document object model. It represents the HTML page as a logical tree so that you can target elements to interact with them through programming languages. By manipulating the DOM you can add interactivity to your webpages through events and event listeners. 
 
 2. What is an event?
 
-An event is an action taking place on the page such as click or resize. They are often used with event listeners to add interactivity to a web page. When the event takes place you can do things like make the CSS or HTML of the page change.
+An event is an action taking place on the page such as click or resize. By using an event listener you can watch for an event like click and then have it run the code you've set up.
+
+An example would be when someone clicks a button you have content show up on the page.
 
 3. What is an event listener?
 
-An event listener watches the page for an event to take place so it can perform the necessary action. Examples of events you can listen for are click,mouseenter, and keypress.
+An event listener is a line of code that watches for an event to take place on the specified element so it can run whatever code you have written for it.
 
 4. Why would we convert a NodeList into an Array?
 
@@ -72,10 +74,10 @@ Your finished project must include all of the following requirements:
 
 Your stretch challenge is to write the functionality of a `Carousel` component. You have the HTML and CSS already in place, simply un-comment the HTML in the `index.html` file. This is an advanced challenge, so you are not expected to be able to complete it. If you begin and don't finish, you should still submit with what you have. You may reference the `Tabs.js` file for assistance.
 
-* [ ] Complete the carousel functionality in `Carousel.js`
+* [x] Complete the carousel functionality in `Carousel.js`
 
-* [ ] If you complete the Carousel, add functionality so that the carousel slides when the buttons are pressed instead of just appearing.
+* [x] If you complete the Carousel, add functionality so that the carousel slides when the buttons are pressed instead of just appearing.
 
-* [ ] Create an 'infinite loop' carousel. In which as long as you click on an arrow, the array of images will loop over itself.
+* [x] Create an 'infinite loop' carousel. In which as long as you click on an arrow, the array of images will loop over itself.
 
 * [ ] If you have finished the above, play around with the styling on all the components, and understand how each is built.
